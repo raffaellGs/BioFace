@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e4e4e4;
+    font-family: 'Tenor Sans', sans-serif;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 110px;
+    padding: 15px 20px;
+    background: #fff;
+
+}
+nav img{
+    width: 180px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+nav ul.ul-flex{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+nav ul.ul-flex li{
+    margin-right: 30px;
+}
+
+nav ul.ul-flex li a{
+    text-decoration: none;
+    color: #4F4A7D;
+    font-size: 22px;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    margin: 0 15px;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #4F4A7D;
+    border: 2px solid #4F4A7D;
+}
+
+button.btn{
+    background-color: #4F4A7D;
+    color: #fff;
+}
+.sides{
+    display: flex;
+}
+.container-left{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #146356;
+    position: relative;
+}
+.vextor1,.vector2{
+    height: 100%;
+    display: block;
+}
+.vector1{
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+
+.vector2{
+    position: absolute;
+    top: 195px;
+    left: 70px;
+}
+.contet{
+    text-align: center;
+}
+.container-left .contet h1{
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.container-left .contet p{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Tajawal', sans-serif;
+} 
+.container-right{
+    flex: 1;
+    z-index: 999999999999;
+}
+
+.container-right img{
+    display: block;
+    
+}
+
+button.btn-loja{
+    width: 250px;
+    padding: 15px 40px;
+    font-size: 30px;
+    color: #4F4A7D;
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    cursor: wait;
+} 
+
+footer{
+    height: 55px;
+    width: 100%;
+    background: #fff;
+}
